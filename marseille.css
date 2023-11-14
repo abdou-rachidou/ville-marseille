@@ -3,6 +3,13 @@
     src: url(Fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf) format(truetype);
 }
 
+html{
+    margin: 0;
+    padding: 0;
+    background:url(images/fond-abstrait.jpg);
+    background-size:cover ;
+
+}
 
 * {
     font-family: 'Geologica';
@@ -72,4 +79,70 @@ header{
 .icone-marseille{
     width: 90%;
     height: 90%;
+}
+
+hr{
+    max-width: 50%;
+    border: solid black 1px;
+}
+#section_img img{
+    object-fit: cover;
+    object-position: 50% 15%;
+    width: 100%;
+    height: 40vh;
+    margin-top: 1%;
+}
+
+h1 {
+    color: #BEA064;
+    font-size: 300%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#Actu{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc-actu{
+    border: solid 3px #BEA064;
+    background-color:white ;
+    margin: 10px;
+    margin-top: 2%;
+}
+
+h2{
+    color: #33ACB9;
+    text-align: center;
+}
+
+.image-actu{
+    height:300px;
+    width: 400px;
+}
+
+.div-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-p{
+    line-height: 180%;
+    font-size: 100%;
+    text-align: center;
+}
+
+.p-actu{
+    margin-top: 2%;
+    
+}
+
+.logo-info{
+    height: 50px;
+    width: 50px;
+    margin-top: 2%;
+    padding-bottom: 2%;
 }
