@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Geologica';
+    src: url(Fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf) format(truetype);
+}
+
+
+* {
+    font-family: 'Geologica';
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -92,8 +102,7 @@ main{
     margin-top: -2cm;
     z-index: 2;
     position: relative;
-    box-shadow: 0 0 10px black ;
-    border-radius: 2%;
+    box-shadow: 0 0 20px black ;
 }
 
 h1{
@@ -101,5 +110,5 @@ h1{
 }
 
 .Horaires{
-    margin-left: 2%;
+    margin-left: 7%;
 }
