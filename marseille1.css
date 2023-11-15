@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'Geologica';
+    src: url(Fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf) format(truetype);
+}
+
+
+* {
+    font-family: 'Geologica';
+}
+
+header{
+    background-color: white;
+    padding: 10px 0;
+    border: #BEA064 solid 5px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.menu-toggle{
+    cursor: pointer;
+    display: none;
+}
+
+.menu-toggle span{
+    display: block;
+    height: 3px;
+    width: 25px;
+    background-color: #BEA064;
+    margin: 5px 0;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    padding: 15px;
+    list-style-type: none;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 160%;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #BEA064;
+    min-width: 160px;
+    max-width: 320px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.Titre{
+    display: flex;
+    
+}
+
+.logo-ecusson{
+    width: auto;
+    height: auto;
+
+}
+.icone-marseille{
+    width: 90%;
+    height: 90%;
+}
+
+main{
+    margin: 13%;
+    margin-top: 2cm;
+    line-height: 2;
+    padding: 0;
+}
+
+h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: goldenrod;
+    align-content: center;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.5rem;
+}
+
+h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(99, 207, 250) ;
+    align-items: center;
+}
+
+.conteneur {
+    display: flex;
+}
+
+.conteneur img {
+    height: auto;
+    width: 80%;
+}
+
+.fondation{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Ligures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Ligures img{
+    height: auto;
+    width: 80%;
+}
+
+.antique{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.antique img{
+    height: auto;
+    width: 80%; 
+}
+
+.Moyen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Moyen img{
+    height: auto;
+    width: 80%;  
+}
+
+.Mediévale1{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.Mediévale1 img{
+    height: auto;
+    width: 80%;
+}
+
+.Mediévale2{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.Mediévale2 img{
+    height: auto;
+    width: 80%;
+}
+
+.Mediévale3{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.Mediévale3 img{
+    height: auto;
+    width: 80%;
+}
+
+.Mediévale4{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.Mediévale4 img{
+    height: auto;
+    width: 80%;
+}
+
+.Mediévale5{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.Mediévale5 img{
+    height: auto;
+    width: 80%;
+}
+
+.Mediévale6{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.Mediévale6 img{
+    height: auto;
+    width: 80%;
+}
+
+.Mediévale7{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.Mediévale7 img{
+    height: 50%;
+    width: 50%;
+}
+
+.Mediévale8{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.Mediévale8 img{
+    height: auto;
+    width: 80%;
+}
