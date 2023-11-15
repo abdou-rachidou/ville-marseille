@@ -1,11 +1,90 @@
 @font-face {
-    font-family: 'Agbalumo';
-    src: url(Fonts/Agbalumo-Regular.ttf) format(truetype);
+    font-family: 'Geologica';
+    src: url(Fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf) format(truetype);
+}
+
+
+* {
+    font-family: 'Geologica';
+}
+
+
+header{
+    background-color: white;
+    padding: 10px 0;
+    border: #BEA064 solid 5px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.menu-toggle{
+    cursor: pointer;
+    display: none;
+}
+
+.menu-toggle span{
+    display: block;
+    height: 3px;
+    width: 25px;
+    background-color: #BEA064;
+    margin: 5px 0;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    padding: 15px;
+    list-style-type: none;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 160%;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #BEA064;
+    min-width: 160px;
+    max-width: 320px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.Titre{
+    display: flex;
+    
+}
+
+.logo-ecusson{
+    display: grid;
+    width: 10%;
+    height: 20%;
+    margin-top: 15px;
+    margin: 15px; 
+
+}
+.icone-marseille{
+    width: 80%;
+    height: 90%;
 }
 
 
 
 
+
+@font-face {
+    font-family: 'Agbalumo';
+    src: url(Fonts/Agbalumo-Regular.ttf) format(truetype);
+}
 
 
 * {
