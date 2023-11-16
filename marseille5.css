@@ -3,13 +3,14 @@
     src: url(Fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf) format(truetype);
 }
 
-html{
+
+body {
     margin: 0;
     padding: 0;
-    background:url(images/fond-abstrait.jpg);
-    background-size:cover ;
-
+    background: url(images/fond-abstrait.jpg);
+    background-size: cover;
 }
+
 
 * {
     font-family: 'Geologica';   
@@ -18,7 +19,7 @@ html{
 
 header{
     background-color: white;
-    padding: 10px 0;
+    padding: 30px 0;
     border: #BEA064 solid 5px;
 }
 
@@ -106,6 +107,7 @@ header{
     width: 100%;
     height: 40vh;
     margin-top: 1%;
+    box-shadow: 0 0 70px #E09727;
 }
 
 #section_img1 img{
@@ -114,7 +116,18 @@ header{
     width: 100%;
     height: 40vh;
     margin-top: 1%;
+    box-shadow: 0 0 100px #4D6494;
 }
+
+#section_img2 img{
+    object-fit: cover;
+    object-position: 50% 22%;
+    width: 100%;
+    height: 40vh;
+    margin-top: 1%;
+    box-shadow: 0 0 100px  #2a9fb2;
+}
+
 
 .Titre1 {
     color: #BEA064;
@@ -145,6 +158,7 @@ header{
     align-items: center;
 }
 .bloc-musées{
+    box-shadow: 0 0 10px black;
     border: solid 3px #BEA064;
     background-color:#F8E2C6;
     margin: 100px;
@@ -152,8 +166,17 @@ header{
 }
 
 .bloc-musées2{
-    border: solid 4px #BEA064;
+    box-shadow: 0 0 10px black;
+    border: solid 4px white;
     background-color: #4D6494;
+    margin: 100px;
+    margin-top: 2%;
+}
+
+.bloc-musées3{
+    box-shadow: 0 0 10px black;
+    border: solid 4px white;
+    background-color: #009FB5;
     margin: 100px;
     margin-top: 2%;
 }
@@ -201,4 +224,17 @@ h2{
     width: 50px;
     margin-top: 2%;
     padding-bottom: 2%;
+}
+
+footer {
+    margin-top: 5%;
+    background-color: white;
+    padding: 10vh 0; /* Ajustez le padding selon vos besoins */
+    border-top: #BEA064 solid 5px; /* Ajoutez une bordure en haut pour correspondre au header */
+}
+
+.footer-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
