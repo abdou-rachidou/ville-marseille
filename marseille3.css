@@ -130,11 +130,97 @@ text-shadow: 2px 2px 4px black;
 }
 
 
-.sables{
-    background-image: url(images/sable-fond.jpg);
+.hr1{
+    max-width: 20%;
+    border:solid black 3px;
+    margin-right: 35%;
+}
+
+#Plage1{
+
+font-size: 30px;
+margin-top: 5%;
+
+}
+
+.sables {
+    background-image: url(images/fond-sable.jpg);
     height: 100vh;
     width: 100%;
     position: fixed;
     z-index: -2;
     background-size: cover;
+}
+
+
+.gif-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 1%;
+    overflow: hidden;
+    box-shadow: 0 0 900px #146C92;
+}
+
+
+.gif-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+ 
+}
+
+.superposition {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.superposition img {
+    width: 600px; 
+    height: 450px;
+}
+
+.superposition p {
+    font-size: 20px; 
+    margin-top: 10px;
+}
+
+
+.overlay {
+    position: relative;
+    background-image: url(images/fond-sable.jpg);
+    padding: 20px;
+    border: solid 5px #BEA064;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overlay img {
+    width: 600px;
+    height: 450px;
+}
+
+.overlay p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: black; 
+}
+
+.text-content p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
 }
