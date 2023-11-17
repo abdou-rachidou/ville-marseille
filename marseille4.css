@@ -1,0 +1,211 @@
+@font-face {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    src: url(Fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf) format(truetype);
+}
+
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+    main{
+        width: 100%;
+       
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+header{
+    background-color: white;
+    padding: 10px 0;
+    border: #BEA064 solid 5px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.menu-toggle{
+    cursor: pointer;
+    display: none;
+}
+
+.menu-toggle span{
+    display: block;
+    height: 3px;
+    width: 25px;
+    background-color: #BEA064;
+    margin: 5px 0;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    padding: 15px;
+    list-style-type: none;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 160%;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #BEA064;
+    min-width: 160px;
+    max-width: 320px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.Titre{
+    display: flex;
+    
+}
+
+.logo-ecusson{
+    width: auto;
+    height: auto;
+
+}
+.icone-marseille{
+    width: 90%;
+    height: 90%;
+}
+
+.Fond img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+main{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 130%;
+    line-height: 1.5;
+    background-color: white;
+    background: white;
+    margin: 13%;
+    margin-top: -2cm;
+    z-index: 2;
+    position: relative;
+    box-shadow: 0 0 30px black ;
+}
+
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 5%;
+    font-size: 250%;
+    font-weight: bolder;
+    margin-top: 2%;
+}
+
+.Horaires{
+    margin-left: 10%;
+}
+
+h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 220%;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+hr{
+    margin-top: -3%;
+    width: 85%;
+    margin-left: 10%;
+}
+
+h3{
+    margin-top: 7%; 
+    font-weight: 500; 
+}
+
+h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 220%;
+    font-weight: bolder;
+    margin-top: 7%;   
+}
+
+.Presentation{
+    margin-left: 10%;
+    width: 85%;
+}
+
+.Presentation a{
+    color: #28a745;
+}
+
+.gps{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 85%;
+    margin-top: 4%;
+}
+
+.gps img{
+    height: 320px;
+    width: 100%;
+}
+
+.gps a{
+    color: #28a745;
+}
+
+.Infos{
+    margin-left: 10%;
+    width: 85%; 
+}
+
+.Infos a{
+    color: #28a745;
+}
+
+.partticuliers{
+    margin-left: 10%;
+    width: 85%;
+}
