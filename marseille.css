@@ -17,7 +17,6 @@ body {
 header {
     background-color: white;
     padding: 20px 0;
-    /* Ajout de padding pour espacer le contenu du bord */
     border: #BEA064 solid 5px;
 }
 
@@ -74,7 +73,6 @@ header {
 
 .logo-ecusson {
     max-width: 100%;
-
     height: auto;
 }
 
@@ -87,7 +85,6 @@ hr {
     max-width: 50%;
     border: solid black 1px;
     margin-left: auto;
-    /* Aligner la ligne horizontale à droite */
 }
 
 #section_img img {
@@ -155,9 +152,7 @@ footer {
     margin-top: 5%;
     background-color: white;
     padding: 10vh 0;
-    /* Ajustez le padding selon vos besoins */
     border-top: #BEA064 solid 5px;
-    /* Ajoutez une bordure en haut pour correspondre au header */
 }
 
 .footer-form {
@@ -180,7 +175,6 @@ footer {
     .nav-list {
         display: flex;
         flex-direction: column;
-        /* Ajoutez cette règle pour afficher les éléments en colonne */
         text-align: center;
     }
 
@@ -195,7 +189,6 @@ footer {
     .logo-ecusson {
         width: 50%;
         max-width: 150px;
-        /* Ajustez selon vos besoins */
     }
 
     .bloc-actu {
