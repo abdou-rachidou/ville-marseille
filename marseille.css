@@ -16,7 +16,8 @@ body {
 
 header {
     background-color: white;
-    padding: 20px 0; /* Ajout de padding pour espacer le contenu du bord */
+    padding: 20px 0;
+    /* Ajout de padding pour espacer le contenu du bord */
     border: #BEA064 solid 5px;
 }
 
@@ -73,7 +74,7 @@ header {
 
 .logo-ecusson {
     max-width: 100%;
-    /* Assurez-vous que le logo ne dépasse pas la largeur de son conteneur */
+
     height: auto;
 }
 
@@ -187,11 +188,6 @@ footer {
         padding: 10px;
     }
 
-    .bloc-actu {
-        width: 90%;
-        margin: 10px auto;
-    }
-
     .header-form {
         padding: 10px 0;
     }
@@ -200,6 +196,11 @@ footer {
         width: 50%;
         max-width: 150px;
         /* Ajustez selon vos besoins */
+    }
+
+    .bloc-actu {
+        width: 90%;
+        margin: 10px auto;
     }
 
     h1 {
