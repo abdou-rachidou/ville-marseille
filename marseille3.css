@@ -4,33 +4,27 @@
 }
 
 
-
-
 * {
     font-family: 'Geologica';
-    margin: 0;
 }
-
-
 
 
 header{
     background-color: white;
-    padding: 10px 0;
-    border:  #BEA064 solid 5px;
+    padding: 20px 0;
+    border: #BEA064 solid 5px;
 }
-
 
 .navbar{
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
-
 
 .menu-toggle{
     cursor: pointer;
     display: none;
 }
-
 
 .menu-toggle span{
     display: block;
@@ -39,7 +33,6 @@ header{
     background-color: #BEA064;
     margin: 5px 0;
 }
-
 
 .nav-list{
     list-style: none;
@@ -50,13 +43,11 @@ header{
     list-style-type: none;
 }
 
-
 .nav-list a{
     text-decoration: none;
     color: black;
     font-size: 160%;
 }
-
 
 .dropdown-content{
     display: none;
@@ -64,32 +55,30 @@ header{
     background-color: #BEA064;
     min-width: 160px;
     max-width: 320px;
-    z-index: 999;
-   
+    z-index: 5;
 }
-
 
 .dropdown:hover .dropdown-content{
     display: block;
 }
 
-
 .Titre{
     display: flex;
-   
+    
 }
 
-
 .logo-ecusson{
-    width: auto;
-    height: auto;
-
+   max-width: 100%;
+   height: auto;
 
 }
 .icone-marseille{
     width: 90%;
     height: 90%;
 }
+
+
+
 
 
 #section_img {
@@ -233,4 +222,17 @@ text-shadow: 2px 2px 2px white;
     align-items: center;
     width: 50%;
     margin: 50px;
+}
+
+footer {
+    margin-top: 5%;
+    background-color: white;
+    padding: 10vh 0; /* Ajustez le padding selon vos besoins */
+    border-top: #BEA064 solid 5px; /* Ajoutez une bordure en haut pour correspondre au header */
+}
+
+.footer-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
