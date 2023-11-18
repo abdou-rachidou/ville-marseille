@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Geologica';
+    src: url(Fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf) format(truetype);
+}
+
+* {
+    font-family: 'Geologica';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(images/fond-abstrait.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0;
+    /* Ajout de padding pour espacer le contenu du bord */
+    border: #BEA064 solid 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    display: none;
+}
+
+.menu-toggle span {
+    display: block;
+    height: 3px;
+    width: 25px;
+    background-color: #BEA064;
+    margin: 5px 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    padding: 15px;
+    list-style-type: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 160%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #BEA064;
+    min-width: 160px;
+    max-width: 320px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.Titre {
+    display: flex;
+}
+
+.logo-ecusson {
+    max-width: 100%;
+
+    height: auto;
+}
+
+.icone-marseille {
+    width: 90%;
+    height: 90%;
+}
+
+hr {
+    max-width: 50%;
+    border: solid black 1px;
+    margin-left: auto;
+    /* Aligner la ligne horizontale à droite */
+}
+
+#section_img img {
+    object-fit: cover;
+    object-position: 50% 15%;
+    width: 100%;
+    height: 40vh;
+    margin-top: 1%;
+}
+
+h1 {
+    color: #BEA064;
+    font-size: 300%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#Actu {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc-actu {
+    border: solid 3px #BEA064;
+    background-color: white;
+    margin: 10px;
+    margin-top: 2%;
+}
+
+h2 {
+    color: #33ACB9;
+    text-align: center;
+}
+
+.image-actu {
+    height: 300px;
+    width: 400px;
+}
+
+.div-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-p {
+    line-height: 180%;
+    font-size: 100%;
+    text-align: center;
+}
+
+.p-actu {
+    margin-top: 2%;
+}
+
+.logo-info {
+    height: 50px;
+    width: 50px;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer {
+    margin-top: 5%;
+    background-color: white;
+    padding: 10vh 0;
+    /* Ajustez le padding selon vos besoins */
+    border-top: #BEA064 solid 5px;
+    /* Ajoutez une bordure en haut pour correspondre au header */
+}
+
+.footer-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        /* Ajoutez cette règle pour afficher les éléments en colonne */
+        text-align: center;
+    }
+
+    .nav-list li {
+        padding: 10px;
+    }
+
+    .header-form {
+        padding: 10px 0;
+    }
+
+    .logo-ecusson {
+        width: 50%;
+        max-width: 150px;
+        /* Ajustez selon vos besoins */
+    }
+
+    .bloc-actu {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    hr {
+        max-width: 90%;
+    }
+}
+
+@media only screen and (max-width: 678px) {
+    #Actu {
+        grid-template-columns: 1fr;
+    }
+
+    .image-actu {
+        width: 100%;
+    }
+
+    hr {
+        max-width: 100%;
+    }
+
+    .logo-info {
+        height: 30px;
+        width: 30px;
+    }
+}
