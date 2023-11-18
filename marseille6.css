@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Geologica';
+    src: url(Fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf) format(truetype);
+}
+
+
+* {
+    font-family: 'Geologica';
+}
+
+
+header{
+    background-color: white;
+    padding: 20px 0;
+    border: #BEA064 solid 5px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-toggle{
+    cursor: pointer;
+    display: none;
+}
+
+.menu-toggle span{
+    display: block;
+    height: 3px;
+    width: 25px;
+    background-color: #BEA064;
+    margin: 5px 0;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    padding: 15px;
+    list-style-type: none;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 160%;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #BEA064;
+    min-width: 160px;
+    max-width: 320px;
+    z-index: 5;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.Titre{
+    display: flex;
+    
+}
+
+.logo-ecusson{
+   max-width: 100%;
+   height: auto;
+
+}
+.icone-marseille{
+    width: 90%;
+    height: 90%;
+}
+
+
+.sables {
+    background-image: url(images/fond-sable.jpg);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -2;
+    background-size: cover;
+}
+
+
+
+
+h3{
+    color: #BEA064;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 0.5rem;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    font-weight: bold;
+    -webkit-text-stroke: 0.2px black;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #BEA064;
+    border-radius: 10px;
+    box-shadow: 0 0 100px black;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    margin-top: 5%;
+    background-color: white;
+    padding: 10vh 0; /* Ajustez le padding selon vos besoins */
+    border-top: #BEA064 solid 5px; /* Ajoutez une bordure en haut pour correspondre au header */
+}
+
+.footer-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

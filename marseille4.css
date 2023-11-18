@@ -240,3 +240,19 @@ h4{
     margin-left: 10%;
     width: 85%;
 }
+
+
+footer {
+    margin-top: 5%;
+    background-color: white;
+    padding: 10vh 0;
+    /* Ajustez le padding selon vos besoins */
+    border-top: #BEA064 solid 5px;
+    /* Ajoutez une bordure en haut pour correspondre au header */
+}
+
+.footer-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
